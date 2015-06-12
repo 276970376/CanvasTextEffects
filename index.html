@@ -1,30 +1,10 @@
-{% extends "sample.html" %}
 
-{% block headauthor %}Michael Deal <mudcube@gmail.com>{% endblock %}
-{% block pageauthor %}{% profilelinks mdeal %}{% endblock %}
-{% block headtitle %}Typographic effects in &lt;canvas&gt;{% endblock %}
-{% block pagetitle %}Typographic effects in &lt;canvas&gt;{% endblock %}
-{% block head %}
-
-{% endblock %}
-{% block pagebreadcrumb %}Typographic effects in &lt;canvas&gt;{% endblock %}
-{% block date %}March 1, 2011{% endblock %}
-{% block updated %}{% endblock %}
-{% block onload %}{% endblock %}
-
-{% block browsersupport %}
 <span class="opera supported"></span>
 <span class="ie"></span>
 <span class="safari supported"></span>
 <span class="ff supported"></span>
 <span class="chrome supported"></span>
-{% endblock %}
 
-{% block iscompatible %}
-  return !!Modernizr.canvas
-{% endblock %}
-
-{% block content %}
   <h2 id="toc-introduction">My Background</h2>
 
   &lt;canvas&gt; entered my awareness in 2006 when Firefox v2.0 was released<span class="s7">.&nbsp; An article on <a href="http://ajaxian.com/">Ajaxian</a>, describing the transformation matrix, inspired me to create my first &lt;canvas&gt; web-app; <a href="http://www.colorjack.com/sphere/">Color Sphere</a> (2007).&nbsp; Which immersed me into the world of colors, and graphic primitives; inspiring the creation of <a href="http://mugtug.com/sketchpad/">Sketchpad</a> (2007-2008) in an effort to put together an application &ldquo;better than Paint&rdquo; in the browser.
@@ -484,5 +464,3 @@
 	 <p> With support from across browser vendor-sphere, there is no question about the future of &lt;canvas&gt; it can be easily ported to the iPhone/Android/Desktop executables using <a href="http://www.phonegap.com/">PhoneGap</a>, or <a href="http://www.appcelerator.com/products/titanium-cross-platform-application-development/">Titanium</a>.&nbsp; I&rsquo;m looking forwards to the future of web-apps, especially interactive <a href="http://infosthetics.com/">infosthetics</a>&mdash;the art of making information beautiful, and (hopefully) understandable.&nbsp; 
 	 <p> <a href="./"><b>Source-code, and demos inside.</b></a>
 	 <p>
-  
-  {% endblock %}
